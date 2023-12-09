@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sports</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<script src="js/bootstrap.bundle.min.js" defer></script>
+</head>
+<body>
+	<!-- Navbar -->
+	<nav class="navbar fixed-top bg-dark navbar-dark navbar-expand-lg">
+		<div class="container">
+			<a href="#" class="navbar-brand">Sports</a>
+
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+					data-bs-target="#navbarNav" aria-controls="navbarNav"
+					aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon btn btn-sm"></span>
+			</button>
+			
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav ms-auto">
+					<li class="nav-item">
+						<a href="index.html" class="nav-link active" aria-current="page">Home</a>
+					</li>
+					<li class="nav-item">
+						<a href="soccer.html" class="nav-link">Soccer</a>
+					</li>
+					<li class="nav-item">
+						<a href="swimming.html" class="nav-link">Swimming</a>
+					</li>
+					<li class="nav-item">
+						<a href="badminton.html" class="nav-link">Badminton</a>
+					</li>
+					<li class="nav-item">
+						<a href="esports.html" class="nav-link">Esports</a>
+					</li>
+					<li class="nav-item">
+						<a href="our_team.html" class="nav-link">Our Team</a>
+					</li>
+				</ul>
+			</div>
+			
+		</div>
+	</nav>
+	<!-- End Navbar -->
+	
+	<!-- Display -->
+	<div id="homePageDisplay" class="carousel slide mb-5" data-bs-ride="carousel">
+		<div class="carousel-inner position-relative">
+			<div class="carousel-item active">
+				<img src="images/soccer.jpg" class="d-block w-100" alt="Soccer Game">
+			</div>
+			<div class="carousel-item">
+				<img src="images/swimming.jpg" class="d-block w-100" alt="Swimming Competition">
+			</div>
+			<div class="carousel-item">
+				<img src="images/badminton.jpg" class="d-block w-100" alt="Thet Htar Thuzar playing Badminton">
+			</div>
+			<div class="carousel-item">
+				<img src="images/esports.jpeg" class="d-block w-100" alt="Esports">
+			</div>
+
+			<div class="position-absolute top-50 start-50 translate-middle">
+				<h1 class="text-light text-uppercase text-center fw-bolder m-0 opacity-50 d-none d-md-block" style="font-size: 150px;">Popular<br>Sports</h1>
+			</div>
+		</div>
+		<button class="carousel-control-prev" type="button" data-bs-target="#homePageDisplay" data-bs-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Previous</span>
+		</button>
+		<button class="carousel-control-next" type="button" data-bs-target="#homePageDisplay" data-bs-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Next</span>
+		</button>
+	</div>
+	<!-- End Display -->
+	
+	<!-- main -->
+	<main class="container">
+		<div class="row row-cols-1 row-cols-lg-2 g-4 mb-5">
+			<!-- soccer -->
+			<div class="col">
+				<div class="card shadow">
+					<div class="row g-0">
+						<div class="col-md-4">
+							<img src="images/messi-ronaldo.jpg" class="img-fluid object-fit-fill rounded-sm-end rounded-start" alt="ronaldo and messi">
+						</div>
+						<div class="col-md-8">
+							<div class="card-body">
+								<h5 class="card-title">Soccer</h5>
+								<p class="card-text">Association football, more commonly known as football or soccer, is a team sport played between two teams of 11 players each, who primarily use...</p>
+								<a href="soccer.html" class="card-link text-decoration-none">Details &raquo;</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End soccer -->
+			<!-- swimming -->
+			<div class="col">
+				<div class="card shadow">
+					<div class="row g-0">
+						<div class="col-md-4">
+							<img src="images/swimmer.jpg" class="img-fluid rounded-start" alt="swimmer">
+						</div>
+						<div class="col-md-8">
+							<div class="card-body">
+								<h5 class="card-title">Swimming</h5>
+								<p class="card-text">Competitive swimming is one of the most popular Olympic sports, with varied distance events in butterfly, backstroke, breaststroke...</p>
+								<a href="swimming.html" class="card-link text-decoration-none">Details &raquo;</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End swimming -->
+			<!-- badminton -->
+			<div class="col">
+				<div class="card shadow">
+					<div class="row g-0">
+						<div class="col-md-4">
+							<img src="images/thet-htar-thuzar.jpg" class="img-fluid rounded-start" alt="Thet Htar Thuzar">
+						</div>
+						<div class="col-md-8">
+							<div class="card-body">
+								<h5 class="card-title">Badminton</h5>
+								<p class="card-text">Badminton is a racquet sport played using racquets to hit a shuttlecock across a net. Although it may be played with larger teams, the most...</p>
+								<a href="badminton.html" class="card-link text-decoration-none">Details &raquo;</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End badminton -->
+			<!-- esports -->
+			<div class="col">
+				<div class="card shadow">
+					<div class="row g-0">
+						<div class="col-md-4">
+							<img src="images/esport-cup.jpg" class="img-fluid rounded-start" alt="Esport Cup">
+						</div>
+						<div class="col-md-8">
+							<div class="card-body">
+								<h5 class="card-title">Esports</h5>
+								<p class="card-text">Esports, short for electronic sports, is a form of competition using video games. Esports often takes the form of organized, multiplayer video...</p>
+								<a href="esports.html" class="card-link text-decoration-none">Details &raquo;</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End esports -->
+		</div>
+	</main>
+	<!-- End main -->
+
+	<!-- footer -->
+	<footer class="bg-dark">
+		<div class="container text-center text-secondary p-3">
+			Copyright &copy; 2023
+		</div>
+	</footer>
+	<!-- End footer -->
+</body>
+</html>
